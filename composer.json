@@ -1,0 +1,32 @@
+{
+  "name": "7csn/chaser",
+  "type": "project",
+  "keywords": [
+    "framework",
+    "chaser"
+  ],
+  "license": "MIT",
+  "description": "The Chaser Framework.",
+  "authors": [
+    {
+      "name": "7csn",
+      "email": "1479672753@qq.com"
+    }
+  ],
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "7csn/chaser-server": "dev-master",
+    "7csn/chaser-app": "dev-master"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "classmap": [],
+    "psr-4": {}
+  }
+}
